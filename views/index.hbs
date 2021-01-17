@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku solver</title>
+</head>
+<body>
+    <form action="/solve/text" method="post">
+        <div style="display: flex; flex-direction: column; width: 128px">
+            <textarea name="puzzle" rows="16">
+003020600
+900305001
+001806400
+008102900
+700000008
+006708200
+002609500
+800203009
+005010300
+            </textarea>
+            <input type="submit" value="Solve"/>
+        </div>
+    </form>
+</body>
+</html>
